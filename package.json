@@ -2,8 +2,9 @@
   "name": "react-typescript-webpack",
   "version": "1.0.0",
   "description": "React TypeScript Webpack Setups",
-  "main": "index.js",
+  "main": "index.tsx",
   "scripts": {
+    "start": "webpack serve --config webpack/webpack.config.js --open",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
